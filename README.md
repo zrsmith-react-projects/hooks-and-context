@@ -17,22 +17,27 @@
 
 ### useEffect()
 
-- ```js 
+```js 
 useEffect(() => {
   return value
 })
 ```
+
 - useEffect will be called every time a component renders
--```js
+
+```js
 useEffect(() => {
   return value
 }, [])
 ```
+
 - use Effect will be called when the component mounts
-- ```js
+
+```js
 useEffect(() = {
   return value
 }, [state.value])
 ```
+
 - useEffect will be called when `state.value` changes
 
