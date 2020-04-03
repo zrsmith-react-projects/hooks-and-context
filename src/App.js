@@ -3,15 +3,14 @@ import Routes from './routes';
 
 
 //main app 
-class App extends Component {
+const App = () => {
 
-  render() {
-    return(
-      <div>
+  return (
+    <div>
       React
       <Routes />
-      </div>
-    )}
+    </div>
+  )
 }
 
 
