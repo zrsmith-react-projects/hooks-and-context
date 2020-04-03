@@ -41,3 +41,11 @@ useEffect(() = {
 
 - useEffect will be called when `state.value` changes
 
+### useReducer()
+
+- `import * as Reducer from './store/hooks/reducer'`
+- `import * as ACTIONS from './store/actions/actions'`
+- `const [state, dispatch] = useReducer(Reducer.reduxReducer, Reducer.initialSatet)[value, function]`
+- Regular Action: `dispatch(type:"ACTION")
+- Action Creator: `(payload) => dispatch(ACTIONS.create_action(payload))`
+- Read State: `<p>{state.state_property</p>`
